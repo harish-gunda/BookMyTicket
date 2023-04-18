@@ -19,6 +19,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.scene.control.Alert;
 
 public class EventViewController implements Initializable{
 	public static int eventId;
@@ -80,6 +81,11 @@ public class EventViewController implements Initializable{
     	}
     	try {
 			program.writeEvents();
+			Alert a = new Alert(Alert.AlertType.CONFIRMATION);
+			a.setTitle("Modified");
+			a.setHeaderText("Success.");
+			a.setContentText("Successfully deleted the event");
+			a.showAndWait();
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -112,6 +118,11 @@ public class EventViewController implements Initializable{
 				e.setSoldTickets(Integer.parseInt(tfSoldTickets.getText()));
 				e.setRemainingTickets(Integer.parseInt(tfRemainingTickets.getText()));
 				e.setTotalTickets(Integer.parseInt(tfTotalTickets.getText()));
+				Alert a = new Alert(Alert.AlertType.CONFIRMATION);
+				a.setTitle("Modified");
+				a.setHeaderText("Success.");
+				a.setContentText("Successfully modified the event");
+				a.showAndWait();
 				break;
 			}
 		}
