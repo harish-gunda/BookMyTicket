@@ -4,8 +4,8 @@
     "description": "Linkin Park is a famous rock band",
     "date": "23-04-2023",
     "totalTickets": 100,
-    "remainingTickets": 50,
-    "soldTickets": 50,
+    "remainingTickets": 44,
+    "soldTickets": 56,
     "price": 100.0,
     "id": 1,
     "venue": "Boston"
@@ -15,8 +15,8 @@
     "description": "One Love is a famous pop boyband",
     "date": "22-04-2023",
     "totalTickets": 120,
-    "remainingTickets": 60,
-    "soldTickets": 60,
+    "remainingTickets": 53,
+    "soldTickets": 67,
     "price": 50.0,
     "id": 2,
     "venue": "NYC"

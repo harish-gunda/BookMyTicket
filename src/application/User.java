@@ -15,6 +15,7 @@ public class User extends Person {
 	public User(String username, String password, String firstname, String lastname) throws IOException {
 		super(username, password, firstname, lastname);
 		events = new ArrayList<>();
+		bookings = new ArrayList();
 		Program p = new Program();
 	}
 	

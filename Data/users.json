@@ -1,20 +1,51 @@
 [
   {
+    "bookings": [
+      2,
+      2,
+      1
+    ],
     "username": "jessi",
     "password": "123",
     "firstname": "Jash",
     "lastname": "Kamsani"
   },
   {
+    "bookings": [],
     "username": "sgunda",
     "password": "Aristotle1@",
     "firstname": "Harish",
     "lastname": "Gunda"
   },
   {
+    "bookings": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
     "events": [],
     "username": "a",
     "password": "a",
+    "firstname": "a",
+    "lastname": "a"
+  },
+  {
+    "events": [],
+    "bookings": [],
+    "username": "a",
+    "password": "b",
     "firstname": "a",
     "lastname": "a"
   }
