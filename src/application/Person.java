@@ -1,12 +1,12 @@
 package application;
 
-public class Person {
-	
+public abstract class Person {
+
 	private String username;
 	private String password;
 	private String firstname;
 	private String lastname;
-	
+
 	public Person(String username, String password, String firstname, String lastname) {
 		this.username = username;
 		this.password = password;
@@ -45,5 +45,5 @@ public class Person {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-	
+
 }

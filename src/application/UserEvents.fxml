@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminEventController">
+   <children>
+      <Rectangle fill="#219ebc" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="Events View" textFill="#023047">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <TableView fx:id="eventTable" layoutX="60.0" layoutY="167.0" onMouseClicked="#selectRow" prefHeight="245.0" prefWidth="580.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="167.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="41.5583610534668" text="Id" />
+          <TableColumn fx:id="artistColumn" prefWidth="126.72579956054688" text="Artist" />
+            <TableColumn fx:id="dateColumn" prefWidth="112.52920532226562" text="Date" />
+            <TableColumn fx:id="venueColumn" prefWidth="95.468505859375" text="Venue" />
+            <TableColumn fx:id="totalTicketsColumn" minWidth="0.0" prefWidth="91.92245483398438" text="Total Tickets" />
+            <TableColumn fx:id="remainingTicketsColumn" prefWidth="112.5775146484375" text="Remaining Tickets" />
+        </columns>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect>
+      </TableView>
+      <Button layoutX="412.0" layoutY="119.0" mnemonicParsing="false" onAction="#addEventClick" prefHeight="27.0" prefWidth="117.0" text="Search" textFill="#023047">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button layoutX="312.0" layoutY="430.0" mnemonicParsing="false" onAction="#viewEventClick" prefHeight="27.0" prefWidth="127.0" text="View Event Details" textFill="#023047">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextField fx:id="searchEventField" layoutX="189.0" layoutY="120.0" />
+      <Label layoutX="75.0" layoutY="124.0" text="Enter venue" />
+   </children>
+</AnchorPane>

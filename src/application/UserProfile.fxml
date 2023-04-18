@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+   <children>
+      <Rectangle fill="#219ebc" height="77.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Button layoutX="36.0" layoutY="25.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button layoutX="280.0" layoutY="406.0" mnemonicParsing="false" onAction="#createBtn" prefHeight="27.0" prefWidth="142.0" text="Create Account" textFill="#023047" AnchorPane.topAnchor="406.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <TextField fx:id="firstnameTxtField" layoutX="103.0" layoutY="150.0" prefWidth="200.0" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="180.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <TextField fx:id="lastnameTxtField" layoutX="300.0" layoutY="150.0" prefWidth="200.0" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="250.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <TextField fx:id="usernameTxtField" layoutX="300.0" layoutY="200.0" prefWidth="200.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="180.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <TextField fx:id="passwordTxtField" layoutX="300.0" layoutY="250.0" prefWidth="200.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="250.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <TextField fx:id="confirmTxtField" layoutX="300.0" layoutY="300.0" prefWidth="200.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="320.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.5" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Label layoutX="157.0" layoutY="105.0" text="Firstname :" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="158.0" />
+      <Label layoutX="163.0" layoutY="155.0" text="Lastname :" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="228.0" />
+      <Label layoutX="172.0" layoutY="205.0" text="Usernmae :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="155.0" />
+      <Label layoutX="163.0" layoutY="255.0" text="Password :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="228.0" />
+      <Label layoutX="163.0" layoutY="305.0" text="Confirm Password :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="298.0" />
+      <Label layoutX="167.0" layoutY="115.0" text="Personal Details" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="425.0" layoutY="125.0" text="Account Details" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Line endY="120.0" layoutX="350.0" layoutY="250.0" startY="-140.0" />
+      <Label alignment="CENTER" layoutX="311.0" layoutY="24.0" text="Sign Up" textFill="#023047">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
