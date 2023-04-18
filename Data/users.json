@@ -1,0 +1,608 @@
+[
+  {
+    "words": {
+      "medium": [
+        {
+          "value": "Figure",
+          "meaning": "A number",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Abstract",
+          "meaning": "Conceptual",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Approach",
+          "meaning": "Move towards",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Wander",
+          "meaning": "Move",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Persist",
+          "meaning": "Continue to exust",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Affect",
+          "meaning": "Have an influence upon",
+          "level": 1,
+          "proficiency": 2
+        },
+        {
+          "value": "Confer",
+          "meaning": "To have a meaning",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Dwell",
+          "meaning": "Think moodily",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Temper",
+          "meaning": "Characteristic way of feeling",
+          "level": 1,
+          "proficiency": 2
+        },
+        {
+          "value": "Intimate",
+          "meaning": "Marked by close acquaintance",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Tide",
+          "meaning": "Periodic ride and fall of sea",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Adverse",
+          "meaning": "In an opposing direction",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Debauch",
+          "meaning": "A wild gathering",
+          "level": 1,
+          "proficiency": 1
+        },
+        {
+          "value": "Circumvent",
+          "meaning": "Surround so as to force to give up",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Exhort",
+          "meaning": "Spur on",
+          "level": 1,
+          "proficiency": 2
+        },
+        {
+          "value": "Comply",
+          "meaning": "Act in accordance with someone\u0027s rule",
+          "level": 1,
+          "proficiency": 0
+        }
+      ],
+      "hard": [
+        {
+          "value": "Obnoxious",
+          "meaning": "Pretend",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Obscure",
+          "meaning": "Uncertain",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Render",
+          "meaning": "To give an interpretation",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Harry",
+          "meaning": "To annoy",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Aggrandize",
+          "meaning": "Enhance power",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Cognizant",
+          "meaning": "Awareness or realization",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Alacrity",
+          "meaning": "Eagerness",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Skill",
+          "meaning": "An ability that has been aquired by training",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Construe",
+          "meaning": "Interpret",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Denigrate",
+          "meaning": "Belittle someone",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Callous",
+          "meaning": "Disregard for others",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Accede",
+          "meaning": "Yield to another\u0027s wish or opinion",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Bashful",
+          "meaning": "Slef-consciously timid",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Classic",
+          "meaning": "Of recognized authority",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Espouse",
+          "meaning": "Choose and follow a theory",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Expiate",
+          "meaning": "Make amends for",
+          "level": 2,
+          "proficiency": 0
+        }
+      ],
+      "easy": [
+        {
+          "value": "Precarious",
+          "meaning": "Not securely held",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Evident",
+          "meaning": "Clear",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Grant",
+          "meaning": "Allow to have",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Reflect",
+          "meaning": "To show an image of",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Scale",
+          "meaning": "Relative magnitude",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Generate",
+          "meaning": "Bring into existence",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Beguile",
+          "meaning": "Influence someone in a deceptive way",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Convince",
+          "meaning": "Cause someone to believe",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Financial",
+          "meaning": "Involving fiscal matters",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Undertake",
+          "meaning": "Enter upon an activity",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Chamber",
+          "meaning": "Natural or artificial enclosed space",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Acumen",
+          "meaning": "Shrewdness shown by keen insight",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Acknowledgemnt",
+          "meaning": "The state of beign recognized",
+          "level": 0,
+          "proficiency": 1
+        },
+        {
+          "value": "Style",
+          "meaning": "A manner of doing something",
+          "level": 0,
+          "proficiency": 2
+        },
+        {
+          "value": "Concept",
+          "meaning": "An abstract",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Condition",
+          "meaning": "A mode of being",
+          "level": 0,
+          "proficiency": 2
+        }
+      ]
+    },
+    "level": "easy",
+    "username": "jessi",
+    "password": "123",
+    "firstname": "Jash",
+    "lastname": "Kamsani"
+  },
+  {
+    "words": {
+      "medium": [
+        {
+          "value": "Figure",
+          "meaning": "A number",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Abstract",
+          "meaning": "Conceptual",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Approach",
+          "meaning": "Move towards",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Wander",
+          "meaning": "Move",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Persist",
+          "meaning": "Continue to exust",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Affect",
+          "meaning": "Have an influence upon",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Confer",
+          "meaning": "To have a meaning",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Dwell",
+          "meaning": "Think moodily",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Temper",
+          "meaning": "Characteristic way of feeling",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Intimate",
+          "meaning": "Marked by close acquaintance",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Tide",
+          "meaning": "Periodic ride and fall of sea",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Adverse",
+          "meaning": "In an opposing direction",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Debauch",
+          "meaning": "A wild gathering",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Circumvent",
+          "meaning": "Surround so as to force to give up",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Exhort",
+          "meaning": "Spur on",
+          "level": 1,
+          "proficiency": 0
+        },
+        {
+          "value": "Comply",
+          "meaning": "Act in accordance with someone\u0027s rule",
+          "level": 1,
+          "proficiency": 0
+        }
+      ],
+      "hard": [
+        {
+          "value": "Obnoxious",
+          "meaning": "Pretend",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Obscure",
+          "meaning": "Uncertain",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Render",
+          "meaning": "To give an interpretation",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Harry",
+          "meaning": "To annoy",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Aggrandize",
+          "meaning": "Enhance power",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Cognizant",
+          "meaning": "Awareness or realization",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Alacrity",
+          "meaning": "Eagerness",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Skill",
+          "meaning": "An ability that has been aquired by training",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Construe",
+          "meaning": "Interpret",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Denigrate",
+          "meaning": "Belittle someone",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Callous",
+          "meaning": "Disregard for others",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Accede",
+          "meaning": "Yield to another\u0027s wish or opinion",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Bashful",
+          "meaning": "Slef-consciously timid",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Classic",
+          "meaning": "Of recognized authority",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Espouse",
+          "meaning": "Choose and follow a theory",
+          "level": 2,
+          "proficiency": 0
+        },
+        {
+          "value": "Expiate",
+          "meaning": "Make amends for",
+          "level": 2,
+          "proficiency": 0
+        }
+      ],
+      "easy": [
+        {
+          "value": "Precarious",
+          "meaning": "Not securely held",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Evident",
+          "meaning": "Clear",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Grant",
+          "meaning": "Allow to have",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Reflect",
+          "meaning": "To show an image of",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Scale",
+          "meaning": "Relative magnitude",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Generate",
+          "meaning": "Bring into existence",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Beguile",
+          "meaning": "Influence someone in a deceptive way",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Convince",
+          "meaning": "Cause someone to believe",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Financial",
+          "meaning": "Involving fiscal matters",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Undertake",
+          "meaning": "Enter upon an activity",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Chamber",
+          "meaning": "Natural or artificial enclosed space",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Acumen",
+          "meaning": "Shrewdness shown by keen insight",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Acknowledgemnt",
+          "meaning": "The state of beign recognized",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Style",
+          "meaning": "A manner of doing something",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Concept",
+          "meaning": "An abstract",
+          "level": 0,
+          "proficiency": 0
+        },
+        {
+          "value": "Condition",
+          "meaning": "A mode of being",
+          "level": 0,
+          "proficiency": 0
+        }
+      ]
+    },
+    "level": "easy",
+    "username": "sgunda",
+    "password": "Aristotle1@",
+    "firstname": "Harish",
+    "lastname": "Gunda"
+  }
+]

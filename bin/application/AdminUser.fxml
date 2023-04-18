@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminUserController">
+   <children>
+      <Rectangle fill="#219ebc" height="77.0" layoutX="10.0" layoutY="9.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Label alignment="CENTER" layoutX="309.0" layoutY="24.0" text="User CRUD" textFill="#023047">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <TableView fx:id="userTable" layoutX="62.0" layoutY="102.0" onMouseClicked="#selectRow" prefHeight="220.0" prefWidth="580.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="110.0">
+        <columns>
+          <TableColumn fx:id="firstnameColumn" onEditCommit="#changeFirstnameCellEvent" prefWidth="130.0" text="Firstname" />
+          <TableColumn fx:id="lastnameColumn" onEditCommit="#changeLastnameCellEvent" prefWidth="151.0" text="Lastname" />
+            <TableColumn fx:id="usernameColumn" onEditCommit="#changeUsernameCellEvent" prefWidth="136.0" text="Username" />
+            <TableColumn fx:id="passwordColumn" onEditCommit="#changePasswordCellEvent" prefWidth="162.0" text="Password" />
+        </columns>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect>
+      </TableView>
+      <Button layoutX="520.0" layoutY="356.0" mnemonicParsing="false" onAction="#addUser" prefHeight="27.0" prefWidth="100.0" text="Add" textFill="#023047" AnchorPane.rightAnchor="80.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Button fx:id="deleteBtn" layoutX="520.0" layoutY="416.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="27.0" prefWidth="100.0" text="Delete" textFill="#023047" AnchorPane.rightAnchor="80.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.699999988079071" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Label layoutX="83.0" layoutY="373.0" text="Firstname :" textFill="#023047" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="85.0" />
+      <TextField fx:id="firstnameTxtField" layoutX="148.0" layoutY="368.0" prefHeight="26.0" prefWidth="200.0" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="80.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Label layoutX="83.0" layoutY="431.0" text="Lastname :" textFill="#023047" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="85.0" />
+      <TextField fx:id="lastnameTxtField" layoutX="80.0" layoutY="430.0" prefHeight="26.0" prefWidth="200.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="80.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Label layoutX="293.0" layoutY="373.0" text="Username :" textFill="#023047" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="305.0" />
+      <TextField fx:id="usernameTxtField" layoutX="363.0" layoutY="368.0" prefHeight="26.0" prefWidth="200.0" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="300.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+      <Label layoutX="295.0" layoutY="434.0" text="Passwrod :" textFill="#023047" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="305.0" />
+      <TextField fx:id="passwordTxtField" layoutX="363.0" layoutY="426.0" prefHeight="26.0" prefWidth="200.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="300.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.30000001192092896" />
+               </color>
+            </DropShadow>
+         </effect></TextField>
+   </children>
+</AnchorPane>
