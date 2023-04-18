@@ -25,17 +25,17 @@
          </effect>
       </Label>
       <Button fx:id="btnBack" layoutX="37.0" layoutY="28.0" mnemonicParsing="false" onAction="#btnBackClick" text="&lt;&lt;&lt;" />
-      <Label layoutX="93.0" layoutY="114.0" prefHeight="23.0" prefWidth="116.0" text="Artist">
+      <Label layoutX="98.0" layoutY="88.0" prefHeight="23.0" prefWidth="116.0" text="Artist">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="92.0" layoutY="153.0" prefHeight="23.0" prefWidth="125.0" text="Description">
+      <Label layoutX="97.0" layoutY="127.0" prefHeight="23.0" prefWidth="125.0" text="Description">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="95.0" layoutY="195.0" prefHeight="23.0" prefWidth="125.0" text="Date">
+      <Label layoutX="100.0" layoutY="169.0" prefHeight="23.0" prefWidth="125.0" text="Date">
          <font>
             <Font size="18.0" />
          </font>
@@ -66,8 +66,8 @@
          </font>
       </Label>
       
-      <TextField fx:id="tfDescription" layoutX="260.0" layoutY="150.0" />
-      <TextField fx:id="tfDate" layoutX="261.0" layoutY="193.0" />
+      <TextField fx:id="tfDescription" layoutX="265.0" layoutY="124.0" />
+      <TextField fx:id="tfDate" layoutX="266.0" layoutY="167.0" />
       <TextField fx:id="tfTotalTickets" layoutX="262.0" layoutY="238.0" />
       <TextField fx:id="tfRemainingTickets" layoutX="263.0" layoutY="275.0" />
       <TextField fx:id="tfSoldTickets" layoutX="261.0" layoutY="314.0" />
@@ -75,6 +75,12 @@
       <TextField fx:id="tfId" layoutX="273.0" layoutY="397.0" />
       <Button fx:id="btnModify" layoutX="190.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnModifyClick" text="Modify" />
       <Button fx:id="btnDelete" layoutX="275.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnDeleteClick" text="Delete" />
-      <TextField fx:id="tfArtist" layoutX="260.0" layoutY="113.0" />
+      <TextField fx:id="tfArtist" layoutX="265.0" layoutY="87.0" />
+      <Label layoutX="98.0" layoutY="203.0" prefHeight="23.0" prefWidth="125.0" text="Venue">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfVenue" layoutX="264.0" layoutY="201.0" />
    </children>
 </AnchorPane>

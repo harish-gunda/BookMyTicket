@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EventViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EventAddController">
    <children>
       <Rectangle fill="#219ebc" height="77.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0">
          <effect>
@@ -25,17 +25,17 @@
          </effect>
       </Label>
       <Button fx:id="btnBack" layoutX="37.0" layoutY="28.0" mnemonicParsing="false" onAction="#btnBackClick" text="&lt;&lt;&lt;" />
-      <Label layoutX="98.0" layoutY="88.0" prefHeight="23.0" prefWidth="116.0" text="Artist">
+      <Label layoutX="98.0" layoutY="91.0" prefHeight="23.0" prefWidth="116.0" text="Artist">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="97.0" layoutY="127.0" prefHeight="23.0" prefWidth="125.0" text="Description">
+      <Label layoutX="97.0" layoutY="130.0" prefHeight="23.0" prefWidth="125.0" text="Description">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="100.0" layoutY="169.0" prefHeight="23.0" prefWidth="125.0" text="Date">
+      <Label layoutX="100.0" layoutY="172.0" prefHeight="23.0" prefWidth="125.0" text="Date">
          <font>
             <Font size="18.0" />
          </font>
@@ -66,21 +66,20 @@
          </font>
       </Label>
       
-      <TextField fx:id="tfDescription" layoutX="265.0" layoutY="124.0" />
-      <TextField fx:id="tfDate" layoutX="266.0" layoutY="167.0" />
+      <TextField fx:id="tfDescription" layoutX="265.0" layoutY="127.0" />
+      <TextField fx:id="tfDate" layoutX="266.0" layoutY="170.0" />
       <TextField fx:id="tfTotalTickets" layoutX="262.0" layoutY="238.0" />
       <TextField fx:id="tfRemainingTickets" layoutX="263.0" layoutY="275.0" />
       <TextField fx:id="tfSoldTickets" layoutX="261.0" layoutY="314.0" />
       <TextField fx:id="tfPrice" layoutX="263.0" layoutY="356.0" />
       <TextField fx:id="tfId" layoutX="273.0" layoutY="397.0" />
-      <Button fx:id="btnModify" layoutX="190.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnModifyClick" text="Modify" />
-      <Button fx:id="btnDelete" layoutX="275.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnDeleteClick" text="Delete" />
-      <TextField fx:id="tfArtist" layoutX="265.0" layoutY="87.0" />
-      <Label layoutX="98.0" layoutY="203.0" prefHeight="23.0" prefWidth="125.0" text="Venue">
+      <Button fx:id="btnAdd" layoutX="247.0" layoutY="447.0" mnemonicParsing="false" onAction="#btnAddClick" text="Add" />
+      <TextField fx:id="tfArtist" layoutX="265.0" layoutY="90.0" />
+      <Label layoutX="98.0" layoutY="205.0" prefHeight="23.0" prefWidth="125.0" text="Venue">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="tfVenue" layoutX="264.0" layoutY="201.0" />
+      <TextField fx:id="tfVenue" layoutX="264.0" layoutY="203.0" />
    </children>
 </AnchorPane>

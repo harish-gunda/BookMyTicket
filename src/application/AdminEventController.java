@@ -82,7 +82,7 @@ public class AdminEventController implements Initializable {
 	
 	
 	public void addEventClick(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("EventView.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("EventAdd.fxml"));
 		Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
