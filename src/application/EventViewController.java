@@ -62,6 +62,9 @@ public class EventViewController implements Initializable{
 
     @FXML
     private TextField tfTotalTickets;
+    
+    @FXML
+    private TextField tfVenue;
 
     @FXML
     void btnBackClick(ActionEvent event) throws IOException {
@@ -74,11 +77,14 @@ public class EventViewController implements Initializable{
 
     @FXML
     void btnDeleteClick(ActionEvent event) throws IOException {
+    	Event eve = null;
     	for(Event e: events) {
     		if(e.getId()==eventId) {
-    			events.remove(e);
+    			eve=e;
+    			break;
     		}
     	}
+    	events.remove(eve);
     	try {
 			program.writeEvents();
 			Alert a = new Alert(Alert.AlertType.CONFIRMATION);
@@ -110,7 +116,7 @@ public class EventViewController implements Initializable{
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				
+				e.setVenue(tfVenue.getText());
 				e.setDescription(tfDescription.getText());
 				e.setId(Integer.parseInt(tfId.getText()));
 				e.setPrice(Float.parseFloat(tfPrice.getText()));
