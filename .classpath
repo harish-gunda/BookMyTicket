@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/udaykk/Downloads/gson-2.2.2.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javaFX"/>
+	<classpathentry kind="lib" path="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="/Users/harish/Downloads/gson-2.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
