@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 
 public class UserController implements Initializable {
 
-	private int userid;
+	public static int userid;
 	private Program program;
 
 	public UserController() throws IOException {
@@ -34,6 +34,7 @@ public class UserController implements Initializable {
 	}
 
 	public void setUserId(int userid) {
+		System.out.println(" uc " + userid);
 		this.userid = userid;
 		try {
 //			program = new Program();
@@ -45,32 +46,41 @@ public class UserController implements Initializable {
 
 	@FXML
 	void btnEventsClick(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("UserEvents.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("UserEvents.fxml"));
+		Parent root = loader.load();
+		UserEventsController controller = loader.getController();
 		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
+		controller.setUserid(userid);
 		stage.show();
 	}
 
 	@FXML
 	void btnUsersClick(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("UserProfile.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("UserProfile.fxml"));
+		Parent root = loader.load();
+		UserProfileController controller = loader.getController();
 		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
+		controller.setUserId(userid);
 		stage.show();
 	}
-	
+
 	@FXML
-    void btnMyBookings(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("UserBoookings.fxml"));
+	void btnMyBookings(ActionEvent event) throws IOException {
+		System.out.println(" ucb " + userid);
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("UserBookings.fxml"));
+		Parent root = loader.load();
+		UserBookingsController controller = loader.getController();
 		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
+		controller.setUserId(userid);
 		stage.show();
-    }
+	}
 
-	
 	@FXML
 	public void logout(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
