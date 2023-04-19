@@ -128,7 +128,7 @@ public class UserEventBookController implements Initializable {
 			Alert a = new Alert(AlertType.ERROR);
 			a.setTitle("Error");
 			a.setHeaderText("Error while booking ticket");
-			a.setContentText("Please try again with correct details" + e.getMessage());
+			a.setContentText("Please try again with correct details");
 			a.showAndWait();
 		}
 
