@@ -34,6 +34,5 @@
       </Label>
       <Button layoutX="292.0" layoutY="144.0" mnemonicParsing="false" onAction="#btnEventsClick" text="Events" />
       <Button layoutX="294.0" layoutY="222.0" mnemonicParsing="false" onAction="#btnUsersClick" text="Users" />
-      <Button layoutX="294.0" layoutY="313.0" mnemonicParsing="false" text="Button" />
    </children>
 </AnchorPane>
