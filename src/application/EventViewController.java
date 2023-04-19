@@ -153,6 +153,7 @@ public class EventViewController implements Initializable{
 			events = program.getEvents();
 			for(Event e: events) {
 				if (e.getId() == eventId) {
+					tfVenue.setText(e.getVenue());
 					tfArtist.setText(e.getArtist());
 					tfDate.setText(new SimpleDateFormat("dd-MM-yyyy").format(e.getDate()));
 					tfDescription.setText(e.getDescription());
