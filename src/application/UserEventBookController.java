@@ -124,7 +124,7 @@ public class UserEventBookController implements Initializable {
 				a.showAndWait();
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+// 			e.printStackTrace();
 			Alert a = new Alert(AlertType.ERROR);
 			a.setTitle("Error");
 			a.setHeaderText("Error while booking ticket");
@@ -152,7 +152,7 @@ public class UserEventBookController implements Initializable {
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+// 			e.printStackTrace();
 		}
 	}
 }
