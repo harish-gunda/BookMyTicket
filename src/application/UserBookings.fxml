@@ -11,14 +11,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserBookingsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #b9a6a6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserBookingsController">
    <children>
-      <Rectangle fill="#219ebc" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
+      <Rectangle fill="#4a1616" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="My Bookings" textFill="#023047">
+      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="My Bookings" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -42,7 +42,7 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="310.0" layoutY="404.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt; Back" textFill="#ab0606" AnchorPane.leftAnchor="310.0" AnchorPane.topAnchor="404.0">
          <effect>
             <DropShadow>
                <color>
@@ -50,7 +50,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#d7620f" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
