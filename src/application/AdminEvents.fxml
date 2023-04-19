@@ -11,14 +11,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminEventController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #b9a6a6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminEventController">
    <children>
-      <Rectangle fill="#219ebc" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
+      <Rectangle fill="#4a1616" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="Events View" textFill="#023047">
+      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="Events View" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -26,7 +26,7 @@
             <Glow />
          </effect>
       </Label>
-      <TableView fx:id="eventTable" layoutX="39.0" layoutY="101.0" onMouseClicked="#selectRow" prefHeight="245.0" prefWidth="580.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="110.0">
+      <TableView fx:id="eventTable" layoutX="60.0" layoutY="180.0" onMouseClicked="#selectRow" prefHeight="245.0" prefWidth="580.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="180.0">
         <columns>
           <TableColumn fx:id="idColumn" prefWidth="41.5583610534668" text="Id" />
           <TableColumn fx:id="artistColumn" prefWidth="126.72579956054688" text="Artist" />
@@ -43,7 +43,7 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="546.0" layoutY="62.0" mnemonicParsing="false" onAction="#addEventClick" prefHeight="27.0" prefWidth="117.0" text="Add New Event" textFill="#023047">
+      <Button layoutX="295.0" layoutY="114.0" mnemonicParsing="false" onAction="#addEventClick" prefHeight="27.0" prefWidth="117.0" text="Add New Event" textFill="#346b03">
          <effect>
             <DropShadow>
                <color>
@@ -51,7 +51,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt; Back" textFill="#bc4703" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
@@ -59,7 +59,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#d06f1b" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
@@ -67,7 +67,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="313.0" layoutY="372.0" mnemonicParsing="false" onAction="#viewEventClick" prefHeight="27.0" prefWidth="127.0" text="View Event Details" textFill="#023047">
+      <Button layoutX="304.0" layoutY="443.0" mnemonicParsing="false" onAction="#viewEventClick" prefHeight="27.0" prefWidth="127.0" text="View Event Details" textFill="#023047">
          <effect>
             <DropShadow>
                <color>

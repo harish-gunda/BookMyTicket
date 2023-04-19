@@ -11,14 +11,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #b9a6a6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
    <children>
-      <Rectangle fill="#219ebc" height="77.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0">
+      <Rectangle fill="#4a1616" height="77.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Button layoutX="36.0" layoutY="25.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="135.0" layoutY="409.0" mnemonicParsing="false" onAction="#backBtn" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt; Back" textFill="#6f1703" AnchorPane.leftAnchor="135.0" AnchorPane.topAnchor="409.0">
          <effect>
             <DropShadow>
                <color>
@@ -26,7 +26,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="280.0" layoutY="406.0" mnemonicParsing="false" onAction="#createBtn" prefHeight="27.0" prefWidth="142.0" text="Create Account" textFill="#023047" AnchorPane.topAnchor="406.0">
+      <Button layoutX="413.0" layoutY="408.0" mnemonicParsing="false" onAction="#createBtn" prefHeight="27.0" prefWidth="142.0" text="Create Account" textFill="#046810" AnchorPane.topAnchor="408.0">
          <effect>
             <DropShadow>
                <color>
@@ -90,7 +90,7 @@
          </font>
       </Label>
       <Line endY="120.0" layoutX="350.0" layoutY="250.0" startY="-140.0" />
-      <Label alignment="CENTER" layoutX="311.0" layoutY="24.0" text="Sign Up" textFill="#023047">
+      <Label alignment="CENTER" layoutX="311.0" layoutY="24.0" text="Sign Up" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

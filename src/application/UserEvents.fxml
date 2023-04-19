@@ -12,14 +12,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserEventsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #b9a6a6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserEventsController">
    <children>
-      <Rectangle fill="#219ebc" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
+      <Rectangle fill="#4a1616" height="77.0" layoutY="-6.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-6.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="Events View" textFill="#023047">
+      <Label alignment="CENTER" layoutX="302.0" layoutY="24.0" text="Events View" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -45,7 +45,7 @@
          </effect>
       </TableView>
      
-      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="153.0" layoutY="430.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt; Back" textFill="#c60d0d" AnchorPane.leftAnchor="153.0" AnchorPane.topAnchor="430.0">
          <effect>
             <DropShadow>
                <color>
@@ -53,7 +53,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#d76b19" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
@@ -61,7 +61,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="312.0" layoutY="430.0" mnemonicParsing="false" onAction="#viewEventClick" prefHeight="27.0" prefWidth="127.0" text="View Event Details" textFill="#023047">
+      <Button layoutX="441.0" layoutY="430.0" mnemonicParsing="false" onAction="#viewEventClick" prefHeight="27.0" prefWidth="127.0" text="View Event Details" textFill="#0275ae">
          <effect>
             <DropShadow>
                <color>
@@ -70,9 +70,9 @@
             </DropShadow>
          </effect>
       </Button>
-      <TextField fx:id="searchEventField" layoutX="189.0" layoutY="120.0" />
-      <Label layoutX="75.0" layoutY="124.0" text="Enter venue" />
-      <Button layoutX="375.0" layoutY="120.0" mnemonicParsing="false" onAction="#searchEventClick" prefHeight="27.0" prefWidth="100.0" text="Search" textFill="#023047">
+      <TextField fx:id="searchEventField" layoutX="270.0" layoutY="121.0" />
+      <Label layoutX="153.0" layoutY="125.0" text="Enter Venue:" />
+      <Button layoutX="486.0" layoutY="120.0" mnemonicParsing="false" onAction="#searchEventClick" prefHeight="27.0" prefWidth="100.0" text="Search" textFill="#023047">
          <effect>
             <DropShadow>
                <color>
