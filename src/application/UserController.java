@@ -17,16 +17,16 @@ import javafx.stage.Stage;
 public class UserController implements Initializable {
 
 	public static int userid;
-	private Program program;
+	private Loader program;
 
 	public UserController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		try {
-			this.program = new Program();
+			this.program = new Loader();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

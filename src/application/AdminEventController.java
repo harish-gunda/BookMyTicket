@@ -23,7 +23,7 @@ import javafx.util.converter.DefaultStringConverter;
 
 public class AdminEventController implements Initializable {
 	
-	private Program program;
+	private Loader program;
 	private int selectedRow = -1;
 	@FXML private TableView<Event> eventTable;
 	private Event eve;
@@ -39,7 +39,7 @@ public class AdminEventController implements Initializable {
     @FXML private TextArea meaningTxtField;
 	
 	public AdminEventController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 	
 	@Override

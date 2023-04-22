@@ -17,7 +17,7 @@ import javafx.stage.Stage;
 
 public class UserProfileController implements Initializable {
 
-	private Program program;
+	private Loader program;
 	private int userId;
 	@FXML
 	private TextField firstnameTxtField;
@@ -33,7 +33,7 @@ public class UserProfileController implements Initializable {
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		try {
-			this.program = new Program();
+			this.program = new Loader();
 			populateFields();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -41,7 +41,7 @@ public class UserProfileController implements Initializable {
 	}
 
 	public UserProfileController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 
 	private void populateFields() {

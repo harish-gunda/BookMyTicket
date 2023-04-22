@@ -27,7 +27,7 @@ import javafx.util.converter.DefaultStringConverter;
 
 public class UserBookingsController implements Initializable {
 	private int userid;
-	private Program program;
+	private Loader program;
 	private int selectedRow = -1;
 	@FXML
 	private TableView<Event> eventTable;
@@ -50,13 +50,13 @@ public class UserBookingsController implements Initializable {
 	private TextArea meaningTxtField;
 
 	public UserBookingsController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		try {
-			this.program = new Program();
+			this.program = new Loader();
 			populateTable();
 		} catch (Exception e) {
 			e.printStackTrace();

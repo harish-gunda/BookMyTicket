@@ -12,14 +12,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminUserController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #b9a6a6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminUserController">
    <children>
-      <Rectangle fill="#219ebc" height="77.0" layoutX="10.0" layoutY="9.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Rectangle fill="#4a1616" height="77.0" layoutX="10.0" layoutY="9.0" stroke="#023047" strokeType="INSIDE" strokeWidth="0.0" width="700.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <effect>
             <DropShadow />
          </effect>
       </Rectangle>
-      <Label alignment="CENTER" layoutX="309.0" layoutY="24.0" text="User CRUD" textFill="#023047">
+      <Label alignment="CENTER" layoutX="268.0" layoutY="23.0" text="User Master Access" textFill="WHITE">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
@@ -27,7 +27,7 @@
             <Glow />
          </effect>
       </Label>
-      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt;&lt;" textFill="#023047" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="39.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="100.0" text="&lt;&lt; Back" textFill="#c9402e" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
@@ -35,7 +35,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#023047" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
+      <Button layoutX="461.0" layoutY="25.0" mnemonicParsing="false" onAction="#logoout" prefHeight="27.0" prefWidth="100.0" text="Logout" textFill="#cd781d" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="25.0">
          <effect>
             <DropShadow>
                <color>
@@ -58,7 +58,7 @@
             </DropShadow>
          </effect>
       </TableView>
-      <Button layoutX="520.0" layoutY="356.0" mnemonicParsing="false" onAction="#addUser" prefHeight="27.0" prefWidth="100.0" text="Add" textFill="#023047" AnchorPane.rightAnchor="80.0">
+      <Button layoutX="533.0" layoutY="367.0" mnemonicParsing="false" onAction="#addUser" prefHeight="27.0" prefWidth="100.0" text="Add" textFill="#478001" AnchorPane.rightAnchor="67.0">
          <effect>
             <DropShadow>
                <color>
@@ -66,7 +66,7 @@
                </color>
             </DropShadow>
          </effect></Button>
-      <Button fx:id="deleteBtn" layoutX="520.0" layoutY="416.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="27.0" prefWidth="100.0" text="Delete" textFill="#023047" AnchorPane.rightAnchor="80.0">
+      <Button fx:id="deleteBtn" layoutX="535.0" layoutY="426.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="27.0" prefWidth="100.0" text="Delete" textFill="#944314" AnchorPane.rightAnchor="65.0">
          <effect>
             <DropShadow>
                <color>

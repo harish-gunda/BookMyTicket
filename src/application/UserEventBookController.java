@@ -26,7 +26,7 @@ public class UserEventBookController implements Initializable {
 	public static int bookeventId;
 	public int bookeventuserId;
 	private List<Event> events;
-	Program program;
+	Loader program;
 
 	@FXML
 	private Button btnBack;
@@ -53,7 +53,7 @@ public class UserEventBookController implements Initializable {
 	private TextField tfcardNo;
 	
 	public UserEventBookController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 	
 	@Override
@@ -137,7 +137,7 @@ public class UserEventBookController implements Initializable {
 
 	public void populateFields() {
 		try {
-			program = new Program();
+			program = new Loader();
 			events = program.getEvents();
 			for (Event e : events) {
 				if (e.getId() == bookeventId) {

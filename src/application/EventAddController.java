@@ -72,7 +72,7 @@ public class EventAddController {
 		e.setRemainingTickets(Integer.parseInt(tfRemainingTickets.getText()));
 		e.setTotalTickets(Integer.parseInt(tfTotalTickets.getText()));
 		List<Event> events = new ArrayList<>();
-		Program program = new Program();
+		Loader program = new Loader();
 		events = program.getEvents();
 		events.add(e);
 		program.writeEvents();

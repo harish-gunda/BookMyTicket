@@ -1,52 +1,29 @@
 [
   {
-    "bookings": [
-      2,
-      2,
-      1
-    ],
-    "username": "jessi",
-    "password": "123",
-    "firstname": "Jash",
-    "lastname": "Kamsani"
-  },
-  {
+    "events": [],
     "bookings": [],
     "username": "sgunda",
-    "password": "Aristotle1@",
+    "password": "1234",
     "firstname": "Harish",
     "lastname": "Gunda"
   },
   {
-    "bookings": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      2,
-      2,
-      2,
-      1,
-      1,
-      1,
-      2,
-      2
-    ],
     "events": [],
-    "username": "a",
-    "password": "a",
-    "firstname": "a",
-    "lastname": "a"
+    "bookings": [],
+    "username": "ncheeti",
+    "password": "1234",
+    "firstname": "Nihal",
+    "lastname": "Cheeti"
   },
   {
     "events": [],
-    "bookings": [],
-    "username": "a",
-    "password": "b",
-    "firstname": "a",
-    "lastname": "a"
+    "bookings": [
+      2,
+      2
+    ],
+    "username": "uday",
+    "password": "abcd",
+    "firstname": "Uday",
+    "lastname": "K"
   }
 ]

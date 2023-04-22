@@ -26,7 +26,7 @@ import javafx.util.converter.DefaultStringConverter;
 
 public class AdminUserController  implements Initializable {
 	
-	private Program program;
+	private Loader program;
 	private int selectedRow = -1;
 	@FXML private TableView<User> userTable;
     @FXML private TableColumn<User, String> firstnameColumn;
@@ -40,7 +40,7 @@ public class AdminUserController  implements Initializable {
     @FXML private TextField passwordTxtField;
 	
 	public AdminUserController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 	
 	@Override

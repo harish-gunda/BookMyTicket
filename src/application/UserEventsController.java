@@ -27,7 +27,7 @@ import javafx.scene.control.TableColumn;
 
 public class UserEventsController implements Initializable {
 
-	private Program program;
+	private Loader program;
 	private int selectedRow = -1;
 	@FXML
 	private TableView<Event> eventTable;
@@ -59,7 +59,7 @@ public class UserEventsController implements Initializable {
 	private TextField searchEventField;
 
 	public UserEventsController() throws IOException {
-		this.program = new Program();
+		this.program = new Loader();
 	}
 
 	@Override

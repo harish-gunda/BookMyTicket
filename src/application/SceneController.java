@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 public class SceneController implements Initializable, SceneControllerInterface {
 	
 	private int userid;
-	private Program program;
+	private Loader program;
 	
 	@FXML private TextField usernameTxtField;
 	@FXML private TextField passwordTxtField;
@@ -23,7 +23,7 @@ public class SceneController implements Initializable, SceneControllerInterface 
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		try {
-			this.program = new Program();
+			this.program = new Loader();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -1,6 +1,6 @@
 [
   {
-    "artist": "Linkin Park2",
+    "artist": "Linkin Park",
     "description": "Linkin Park is a famous rock band",
     "date": "23-04-2023",
     "totalTickets": 100,
@@ -11,14 +11,25 @@
     "venue": "Boston"
   },
   {
-    "artist": "One Love1",
+    "artist": "One Love",
     "description": "One Love is a famous pop boyband",
     "date": "22-04-2023",
     "totalTickets": 120,
-    "remainingTickets": 53,
-    "soldTickets": 67,
+    "remainingTickets": 51,
+    "soldTickets": 69,
     "price": 50.0,
     "id": 2,
     "venue": "NYC"
+  },
+  {
+    "artist": "Weeknd",
+    "description": "Best album in canada",
+    "date": "28-04-2023",
+    "totalTickets": 1000,
+    "remainingTickets": 500,
+    "soldTickets": 500,
+    "price": 45.0,
+    "id": 3,
+    "venue": "Toronto"
   }
 ]

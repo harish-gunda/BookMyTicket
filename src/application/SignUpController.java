@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 
 public class SignUpController implements Initializable {
 	
-	private Program program;
+	private Loader program;
 	@FXML private TextField firstnameTxtField;
 	@FXML private TextField lastnameTxtField;
 	@FXML private TextField usernameTxtField;
@@ -26,7 +26,7 @@ public class SignUpController implements Initializable {
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
 		try {
-        	this.program = new Program();
+        	this.program = new Loader();
         } catch (Exception e) {
         	e.printStackTrace();
         }

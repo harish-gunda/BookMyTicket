@@ -16,7 +16,7 @@ public class User extends Person {
 		super(username, password, firstname, lastname);
 		events = new ArrayList<>();
 		bookings = new ArrayList();
-		Program p = new Program();
+		Loader p = new Loader();
 	}
 	
 	public List<Integer> getBookings() {

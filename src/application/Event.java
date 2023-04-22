@@ -15,6 +15,7 @@ public class Event {
 	private float price;
 	private int id;
 	private String venue;
+	
 	public int getId() {
 		return id;
 	}

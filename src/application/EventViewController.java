@@ -24,7 +24,7 @@ import javafx.scene.control.Alert;
 public class EventViewController implements Initializable{
 	public static int eventId;
 	private List<Event> events;
-	Program program;
+	Loader program;
 	
 
     @FXML
@@ -149,7 +149,7 @@ public class EventViewController implements Initializable{
 	
 	public void populateFields() {
 		try {
-			program = new Program();
+			program = new Loader();
 			events = program.getEvents();
 			for(Event e: events) {
 				if (e.getId() == eventId) {

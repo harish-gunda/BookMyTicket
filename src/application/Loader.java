@@ -11,11 +11,11 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-public class Program {
+public class Loader {
 	private List<User> users;
 	private List<Event> events;
 	
-	public Program() throws IOException {
+	public Loader() throws IOException {
 		this.users = new ArrayList<>();
 		this.events = new ArrayList<>();
 		readUsers();

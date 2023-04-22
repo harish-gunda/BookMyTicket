@@ -12,9 +12,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #4a1616;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
    <children>
-      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#219ebc" height="420.0" layoutX="125.0" layoutY="50.0" stroke="#023047" strokeLineCap="ROUND" strokeType="OUTSIDE" width="500.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="40.0">
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#b9a6a6" height="428.0" layoutX="50.0" layoutY="50.0" stroke="#023047" strokeLineCap="ROUND" strokeType="OUTSIDE" width="604.0" AnchorPane.leftAnchor="49.0" AnchorPane.topAnchor="40.0">
          <effect>
             <DropShadow />
          </effect>
@@ -37,7 +37,7 @@
                </color>
             </DropShadow>
          </effect></PasswordField>
-      <Button layoutX="337.0" layoutY="224.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="100.0" text="Login" textAlignment="CENTER" textFill="#023047" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="280.0">
+      <Button layoutX="300.0" layoutY="280.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="100.0" text="Login" textAlignment="CENTER" textFill="#08902a" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="280.0">
          <effect>
             <DropShadow>
                <color>
@@ -45,14 +45,14 @@
                </color></DropShadow>
          </effect></Button>
       <Label fx:id="errorMsg" layoutX="200.0" layoutY="180.0" />
-      <Button layoutX="337.0" layoutY="321.0" mnemonicParsing="false" onAction="#signUp" prefHeight="27.0" prefWidth="100.0" text="SignUp" textAlignment="CENTER" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="360.0">
+      <Button layoutX="303.0" layoutY="393.0" mnemonicParsing="false" onAction="#signUp" prefHeight="27.0" prefWidth="100.0" text="SignUp" textAlignment="CENTER" textFill="#2b86d0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="303.0">
          <effect>
             <DropShadow>
                <color>
                   <Color opacity="0.699999988079071" />
                </color></DropShadow>
          </effect></Button>
-      <Label alignment="CENTER" layoutX="162.0" layoutY="59.0" prefWidth="400.0" text="Welcome to VocabBuilder !!!" textFill="#023047" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="80.0">
+      <Label alignment="CENTER" layoutX="162.0" layoutY="59.0" prefWidth="400.0" text="BookMyTicket" textFill="#023047" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="80.0">
          <font>
             <Font name="Verdana" size="26.0" />
          </font>
@@ -61,6 +61,6 @@
          </effect>
       </Label>
       <Line endX="150.0" layoutX="251.0" layoutY="307.0" startX="-150.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="330.0" />
-      <Label alignment="CENTER" layoutX="240.0" layoutY="348.0" prefWidth="240.0" text="New to VocabBuilder? Create an account!" textFill="#023047" AnchorPane.topAnchor="358.0" />
+      <Label alignment="CENTER" layoutX="240.0" layoutY="348.0" prefWidth="240.0" text="Or Create an Account" textFill="#023047" AnchorPane.topAnchor="358.0" />
    </children>
 </AnchorPane>

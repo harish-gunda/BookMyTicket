@@ -76,7 +76,7 @@
          </effect></TextField>
       <Label layoutX="157.0" layoutY="105.0" text="Firstname :" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="158.0" />
       <Label layoutX="163.0" layoutY="155.0" text="Lastname :" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="228.0" />
-      <Label layoutX="172.0" layoutY="205.0" text="Usernmae :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="155.0" />
+      <Label layoutX="172.0" layoutY="205.0" text="Username :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="155.0" />
       <Label layoutX="163.0" layoutY="255.0" text="Password :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="228.0" />
       <Label layoutX="163.0" layoutY="305.0" text="Confirm Password :" textFill="#023047" AnchorPane.leftAnchor="430.0" AnchorPane.topAnchor="298.0" />
       <Label layoutX="167.0" layoutY="115.0" text="Personal Details" textFill="#023047" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="125.0">
